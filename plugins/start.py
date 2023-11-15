@@ -91,6 +91,18 @@ async def start(client, message):
                                           ))
     
 
+@Client.on_callback_query(filters.regex("help"))
+async def help(bot, msg):
+    txt = "just send a file and /rename <new name> with replayed your file\n\n"
+    txt += "send photo to set thumbnail automatic \n"
+    txt += "/view to see your thumbnail \n"
+    txt += "/del to delete your thumbnail"
+    button= [[        
+        InlineKeyboardButton("🚫 Close", callback_data="del"),
+        InlineKeyboardButton("⬅️ Back", callback_data="start") 
+    ]]  
+    await msg.message.edit(text=txt, reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview = True)
+
 
 @Client.on_message((filters.private & (filters.document | filters.audio | filters.video)) | filters.channel & (filters.document | filters.audio | filters.video))
 async def send_doc(client, message):
