@@ -1,4 +1,4 @@
-from datetime import date as date_
+efrom datetime import date as date_
 import datetime
 import os
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
@@ -14,7 +14,7 @@ from pyrogram.file_id import FileId
 from helper.database import daily as daily_
 from helper.date import check_expi
 import os
-
+e
 CHANNEL = os.environ.get('CHANNEL', "")
 STRING = os.environ.get("STRING", "")
 ADMIN = int(os.environ.get("ADMIN", 1484670284))
@@ -66,7 +66,7 @@ async def start(client, message):
                                          reply_markup=InlineKeyboardMarkup(
                                              [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/RedOfficiall")],
                                               [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                             InlineKeyboardButton("Movie Group", url='https://t.me/RedMovies1')],
+                                             InlineKeyboardButton("ℹ️ Help", callback_data="help")],
                                              [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://buymeacoffee.com/redofficial')]
                                           ))
             except:
