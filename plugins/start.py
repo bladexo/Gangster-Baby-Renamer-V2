@@ -105,8 +105,8 @@ async def help(bot, msg):
     txt += "Exᴀᴍᴩʟᴇ:- /set_caption Fɪʟᴇ Nᴀᴍᴇ: {filename} \n"
     txt += "Sɪᴢᴇ: {filesize} \n"
     txt += "Dᴜʀᴀᴛɪᴏɴ: {duration} \n"
-     txt += "<b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b> \n"\n"
-     txt += "+<b>•»</b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ]. \n"          
+    txt += "<b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b> \n"
+    txt += "+<b>•»</b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ]. \n"          
     button= [[        
         InlineKeyboardButton("🚫 Close", callback_data="del"),
         InlineKeyboardButton("⬅️ Back", callback_data="start") 
