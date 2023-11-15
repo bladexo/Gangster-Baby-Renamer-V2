@@ -54,7 +54,7 @@ async def start(client, message):
                                       [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
                                       InlineKeyboardButton("Movie Channel", url='https://t.me/Redmovies1')],
                                       [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://buymeacoffee.com/redofficial')]
-                                      ]))
+                                      ))
         return
     if id:
         if old == True:
@@ -67,7 +67,7 @@ async def start(client, message):
                                               [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
                                              InlineKeyboardButton("Movie Group", url='https://t.me/RedMovies1')],
                                              [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://buymeacoffee.com/redofficial')]
-                                          ]))
+                                          ))
             except:
                 return
         else:
@@ -86,7 +86,7 @@ async def start(client, message):
                                           [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
                                           InlineKeyboardButton("Movie Channel", url='https://t.me/RedMovies1')],
                                           [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://https://buymeacoffee.com/redofficial')]
-                                          ]))
+                                          ))
     
 
 
