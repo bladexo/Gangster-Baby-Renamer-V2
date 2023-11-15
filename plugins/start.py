@@ -49,12 +49,13 @@ async def start(client, message):
 	I am file renamer bot, Please sent any telegram**Document Or Video** and enter new filename to rename it"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
-                                reply_markup=InlineKeyboardMarkup(
-                                      [InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/RedOfficiall")],
+                                  reply_markup=InlineKeyboardMarkup(
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
                                       [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                      [InlineKeyboardButton("Movie Channel", url='https://t.me/Redmovies1')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://buymeacoffee.com/redofficial')]
-                                      ))
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
+                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      ]))
         return
     if id:
         if old == True:
