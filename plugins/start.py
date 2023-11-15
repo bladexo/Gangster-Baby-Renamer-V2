@@ -125,9 +125,9 @@ async def send_doc(client, message):
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("🦋 Contact LazyDeveloper 🦋", url='https://telegram.me/MR_DINNO1')],
                                                                      [InlineKeyboardButton("🔺 Watch Tutorial 🔺", url='https://youtube.com/@LazyDevelperr')],
-                                                                     [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/RedOfficiall'),
+                                                                     [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/RedOfficiall')],
                                                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://buymeacoffee.com/redofficial')]
-                                                                    ]))
+                                                                    ))
         await message.reply_text(text=f"🦋")
         return 
 
