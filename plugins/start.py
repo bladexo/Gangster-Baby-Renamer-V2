@@ -50,9 +50,9 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/RedOfficiall")],
+                                      [InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/RedOfficiall")],
                                       [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/Redmovies1')],
+                                      [InlineKeyboardButton("Movie Channel", url='https://t.me/Redmovies1')],
                                       [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://buymeacoffee.com/redofficial')]
                                       ))
         return
