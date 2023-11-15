@@ -14,6 +14,7 @@ from pyrogram.file_id import FileId
 from helper.database import daily as daily_
 from helper.date import check_expi
 import os
+from config import Config, Txt
 
 CHANNEL = os.environ.get('CHANNEL', "")
 STRING = os.environ.get("STRING", "")
@@ -91,17 +92,16 @@ async def start(client, message):
                                           ))
     
 
-@Client.on_callback_query(filters.regex("help"))
-async def help(bot, msg):
-    txt = "just send a file and /rename <new name> with replayed your file\n\n"
-    txt += "send photo to set thumbnail automatic \n"
-    txt += "/view to see your thumbnail \n"
-    txt += "/del to delete your thumbnail"
-    button= [[        
-        InlineKeyboardButton("🚫 Close", callback_data="del"),
-        InlineKeyboardButton("⬅️ Back", callback_data="start") 
-    ]]  
-    await msg.message.edit(text=txt, reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview = True)
+
+elif data == "help":
+        await query.message.edit_text(
+            text=Txt.HELP_TXT,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup([[
+                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+		 ]])
+                 )
 
 
 @Client.on_message((filters.private & (filters.document | filters.audio | filters.video)) | filters.channel & (filters.document | filters.audio | filters.video))
