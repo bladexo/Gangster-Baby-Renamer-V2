@@ -39,7 +39,7 @@ else:
 # -------------------------------
 
 
-@Client.on_message(filters.private & filters.command(["start"]))
+@Client.on_message(filters.private & filters.command("start"))
 async def start(client, message):
     old = insert(int(message.chat.id))
     try:
@@ -92,7 +92,7 @@ async def start(client, message):
     
 
 
-@Client.on_callback_query(filters.regex("help"))
+@Client.on_callback_query(filters.regex("help"))   
 async def help(bot, msg):
     txt = "🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ</u></b> \n\n"
     txt += "<b>•»</b> /start Tʜᴇ Bᴏᴛ Aɴᴅ Sᴇɴᴅ Aɴy Pʜᴏᴛᴏ Tᴏ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟy Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ. \n"
