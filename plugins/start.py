@@ -106,7 +106,7 @@ async def help(bot, msg):
     txt += "💾 Sɪᴢᴇ: {filesize} \n"
     txt += "⏰Dᴜʀᴀᴛɪᴏɴ: {duration} \n"
     txt += "<b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b> \n"
-    txt = "<b>•»</b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ]. \n"          
+    txt += "<b>•»</b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ]. \n"          
     button= [[        
         InlineKeyboardButton("✖️ 𝑪𝑳𝑶𝑺𝑬", callback_data="cancel"),
         InlineKeyboardButton("⬅️ 𝑩𝑨𝑪𝑲", callback_data="start") 
