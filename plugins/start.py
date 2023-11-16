@@ -52,7 +52,7 @@ async def start(client, message):
                                   reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("🔺 𝑼𝑷𝑫𝑨𝑻𝑬 𝑪𝑯𝑨𝑵𝑵𝑬𝑳 🔺", url="https://t.me/RedOfficiall")],
                                       [InlineKeyboardButton("𝑷𝑹𝑬𝑴𝑰𝑼𝑴💳", callback_data="upgrade")],
-                                      [InlineKeyboardButton("𝑴𝑶𝑽𝑰𝑬𝑺 𝑪𝑯𝑨𝑵𝑵𝑬𝑳", url='https://t.me/real_MoviesAdda2'),
+                                      [InlineKeyboardButton("𝑴𝑶𝑽𝑰𝑬𝑺 𝑮𝑹𝑶𝑼𝑷", url='https://t.me/RedMovies1'),
                                       InlineKeyboardButton("ℹ️ 𝑯𝑬𝑳𝑷", callback_data="help")],
                                       [InlineKeyboardButton("☕ 𝑩𝑼𝒀 𝑴𝑬 𝑪𝑶𝑭𝑭𝑬𝑬 ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
                                       ]))
@@ -66,7 +66,7 @@ async def start(client, message):
                                           reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("🔺 𝑼𝑷𝑫𝑨𝑻𝑬 𝑪𝑯𝑨𝑵𝑵𝑬𝑳 🔺", url="https://t.me/RedOfficiall")],
                                       [InlineKeyboardButton("𝑷𝑹𝑬𝑴𝑰𝑼𝑴💳", callback_data="upgrade")],
-                                      [InlineKeyboardButton("𝑴𝑶𝑽𝑰𝑬𝑺 𝑪𝑯𝑨𝑵𝑵𝑬𝑳", url='https://t.me/real_MoviesAdda2'),
+                                      [InlineKeyboardButton("𝑴𝑶𝑽𝑰𝑬𝑺 𝑮𝑹𝑶𝑼𝑷", url='https://t.me/RedMovies1'),
                                       InlineKeyboardButton("ℹ️ 𝑯𝑬𝑳𝑷", callback_data="help")],
                                       [InlineKeyboardButton("☕ 𝑩𝑼𝒀 𝑴𝑬 𝑪𝑶𝑭𝑭𝑬𝑬 ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
                                           ]))
@@ -86,7 +86,7 @@ async def start(client, message):
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🔺 𝑼𝑷𝑫𝑨𝑻𝑬 𝑪𝑯𝑨𝑵𝑵𝑬𝑳 🔺", url="https://t.me/RedOfficiall")],
                                           [InlineKeyboardButton("𝑷𝑹𝑬𝑴𝑰𝑼𝑴💳", callback_data="upgrade")],
-                                          InlineKeyboardButton("𝑴𝑶𝑽𝑰𝑬𝑺 𝑪𝑯𝑨𝑵𝑵𝑬𝑳", url='https://t.me/RedMovies1')],
+                                          InlineKeyboardButton("𝑴𝑶𝑽𝑰𝑬𝑺 𝑮𝑹𝑶𝑼𝑷", url='https://t.me/RedMovies1')],
                                           [InlineKeyboardButton("☕ 𝑩𝑼𝒀 𝑴𝑬 𝑪𝑶𝑭𝑭𝑬𝑬 ☕", url='https://https://buymeacoffee.com/redofficial')]
                                           ))
     
