@@ -8,6 +8,7 @@ from hachoir.parser import createParser
 from helper.database import *
 import os
 import random
+from pyrogram.enums import MessageMediaType
 from PIL import Image
 import time
 from datetime import timedelta
